@@ -12,11 +12,16 @@ body {
   height: 100vh;
 }
 
+span{
+  display: inline-block;
+}
+
 body section.container {
   width: 100%;
   height: 100vh;
   text-align: center;
   display: flex;
+  padding: 1em;
   flex-direction: column;
   align-items: center;
   position: relative;
@@ -54,6 +59,7 @@ body section.container section.container-flex div.inputs button i {
 
 body section.container section.container-lembrete {
   width: 100%;
+  margin: 1em 0em;
   color: #fff;
   text-align: center;
 }
@@ -83,7 +89,7 @@ body section.container section.container-itens ul {
   list-style-type: none;
 }
 
-body section.container section.container-itens ul li {
+body section.container section.container-itens ul li.container-each {
   height: 5em;
   display: flex;
   margin: 0 0 20px 0;
@@ -96,8 +102,12 @@ body section.container section.container-itens ul li {
   border-radius: 10px;
   width: 100%;
   background-color: #1c1d1d;
-  transition: width 1s ease-in-out;
   justify-content: space-between;
+}
+
+div.infos{
+  width: 100%;
+  background-color: red;
 }
 
 body section.container section.container-itens ul li i {
@@ -105,6 +115,14 @@ body section.container section.container-itens ul li i {
   padding-right: 10px;
 }
 
+body section.container section.container-itens ul li label{
+  text-align: left;
+}
+
+body section.container section.container-itens ul li label span{
+  font-size: 14px;
+  color: #ddd;
+}
 
 body section.container section.container-itens ul li p{
   color: red;
@@ -125,9 +143,13 @@ body section.options{
     border-top-right-radius: 20px;
     bottom: 0;
     padding: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     display: none;
-    height: 10em;
+    height: 15em;
     background-color: rgb(17, 16, 16);
     width: 100%;
 }
@@ -135,6 +157,7 @@ body section.options{
 body section.options input{
   padding: 8px;
   width: 80%;
+  margin: 5px 0;
   background-color: rgb(17, 16, 16);
   border-radius: 10px;
   border: none;
@@ -144,3 +167,4 @@ body section.options input{
 body section.options input::placeholder{
   color: #fff;
 }
+
