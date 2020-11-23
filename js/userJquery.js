@@ -8,4 +8,8 @@ $(window).on("load",function(){
     $(".adicionarTarefa").click(function(){
         $("section.options").slideToggle("slow");
     })
+
+
+
+
 })  
