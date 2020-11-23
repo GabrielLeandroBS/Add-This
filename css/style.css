@@ -9,6 +9,7 @@
 
 html,
 body {
+  background-color: #000000;
   height: 100vh;
 }
 
@@ -166,4 +167,6 @@ body section.options input{
 body section.options input::placeholder{
   color: #fff;
 }
-
+.animate{
+  transition: width 5s ease-in-out;
+}

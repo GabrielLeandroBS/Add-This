@@ -55,6 +55,7 @@ var app = angular.module("myList", ['ngStorage']);
   $scope.removeItem = function(x) {
     $scope.listagem.splice(x,1);
     $scope.save()
+    $scope.class = "animate"
   };
 
   $scope.load()
