@@ -8,10 +8,4 @@ $(window).on("load",function(){
     $(".adicionarTarefa").click(function(){
         $("section.options").slideToggle("slow");
     })
-
-    $("#group").click(function(){
-        console.log("testans")
-        $(this).addClass("animate__animated animate__bounce")
-    })
-
 })  

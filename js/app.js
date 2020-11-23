@@ -1,5 +1,5 @@
 // * Iniciando o modúlo AngularJS
-var app = angular.module("myList", ['ngAnimate']);
+var app = angular.module("myList", []);
 
 /*
  * Aqui temos um controlador que será responsável pelo array.
