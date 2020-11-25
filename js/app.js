@@ -21,14 +21,16 @@ application.controller("myCtrl", function ($scope) {
   };
   // Remover item
   $scope.removeItem = function (x) {
-    $scope.array.splice(x, 1);
-    $scope.save();
+      $scope.array.splice(x, 1)     
+      $scope.save();
   };
 
   // Manipulação da data e hora
   $scope.date = {
     value: new Date(2020, 8, 20),
   };
+
+
 
   $scope.hora = {
     value: new Date(00, 00, 00),
@@ -38,12 +40,14 @@ application.controller("myCtrl", function ($scope) {
 
   $scope.pageReload = function () {
     var dados = localStorage.getItem("lista");
-    $scope.name = localStorage.getItem("Nome")
+    $scope.name = localStorage.getItem("Nome");
     if (dados === null) {
       $scope.array = [];
     } else {
       $scope.array = JSON.parse(dados);
     }
+
+    
   };
 
   $scope.save = function () {
@@ -51,4 +55,4 @@ application.controller("myCtrl", function ($scope) {
   };
 
   $scope.pageReload();
-}); 
+});
