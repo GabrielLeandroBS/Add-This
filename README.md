@@ -9,7 +9,6 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
-
 <br>
 
 ## 🚀 Tecnologias
@@ -26,8 +25,9 @@ O Add This é um projeto projeto pessoal que tem o objetivo de adquirir conhecim
 ## 🔖 Layout
 
 O layout desenvolvido visou um design minimalista mas ao mesmo tempo impactante.
-    
-    <img alt="Add This" title="Add This" width="200px" height="200px" src=".github/app.svg" />
+
+    <img align="center" alt="Add This" title="Add This" width="200px" height="200px" src=".github/app.svg" />
+
 
 ## 📝 Licença
 
