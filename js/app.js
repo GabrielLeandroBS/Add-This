@@ -1,65 +1,54 @@
 // * Iniciando o modúlo AngularJS
-var app = angular.module("myList", ['ngStorage']);
+var application = angular.module("myList", ["ngStorage"]);
 
-/*
- * Aqui temos um controlador que será responsável pelo array.
-*/
-
- app.controller("myCtrl", function ($scope) {
-
-  $scope.area = "Tasks";
-  $scope.name = "Gabriel Leandro";
-  $scope.listagem = [];
-  $scope.hora = {
-    value: new Date(200, 0, 1, 14),
-  };
-  
-  $scope.date = {
-    value: new Date(2000, 1, 22),
-  };
-
-  $scope.load = function(){
-    var data_raw = localStorage.getItem('lista'); 
-    if(data_raw === null){
-      $scope.listagem = [];
-    }else{
-      $scope.listagem = JSON.parse(data_raw)
-    }
-  }
-
-  $scope.save = function(){
-    localStorage.setItem("lista",JSON.stringify($scope.listagem))
-  }
-
-  // * Temos um "objeto" que irá ter uma função que ficará responsável pela adição dos itens
+application.controller("myCtrl", function ($scope) {
+  // Criar array para adição de objetos
+  $scope.array = [];
+  // Criamos um evento de clique no HTML chamando essa função
   $scope.addItem = function () {
-    // Se o addMe estiver vazio, não for verdadeiro retorne false
-    if (!$scope.addMe) {
-      return;
-    }
-    /*
-     * Se no array (indexOf pega o valor dentro de um array)
-     * Não contiver o item, adicione.
-     */
-    if ($scope.listagem.indexOf($scope.addMe) == -1) {
-      $scope.listagem.push($scope.addMe);
+    // Se o input estiver vazio, retorne falso
+    if (!$scope.addItem) return;
+    // Pegamos o valor no console log do IndexOf do AddMe
+    // AddMe = value do input
+    if ($scope.array.indexOf($scope.addMe) === -1) {
+      // Adiciona com o push (empurra um novo valor) para o addMe
+      $scope.array.push($scope.addMe);
+      $scope.save();
       $scope.addMe = "";
-      $scope.save()
     } else {
-      alert("Tarefa já adicionada! :D")
+      alert("Você adicionou a mesma tarefa sem completar ela!");
+    }
+  };
+  // Remover item
+  $scope.removeItem = function (x) {
+    $scope.array.splice(x, 1);
+    $scope.save();
+  };
+
+  // Manipulação da data e hora
+  $scope.date = {
+    value: new Date(2020, 8, 20),
+  };
+
+  $scope.hora = {
+    value: new Date(00, 00, 00),
+  };
+
+  // LocalStorage
+
+  $scope.pageReload = function () {
+    var dados = localStorage.getItem("lista");
+    $scope.name = localStorage.getItem("Nome")
+    if (dados === null) {
+      $scope.array = [];
+    } else {
+      $scope.array = JSON.parse(dados);
     }
   };
 
-  // Criamos uma função que vai pegar o index do item, no caso!
-  // O valor do item, exemplo "Atividades" e remova ao clique
-  $scope.removeItem = function(x) {
-    $scope.listagem.splice(x,1);
-    $scope.save()
-    $scope.class = "animate"
+  $scope.save = function () {
+    localStorage.setItem("lista", JSON.stringify($scope.array));
   };
 
-  $scope.load()
- 
-});
-
-// Nosso app tá pronto, só vamos estilizar e GG!
+  $scope.pageReload();
+}); 

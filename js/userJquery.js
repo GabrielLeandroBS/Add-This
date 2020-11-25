@@ -1,18 +1,48 @@
-$(window).on("load",function(){
+$(".addItem").click(function () {
+  $(".container-input").css("display", "block");
+  $("section.options").slideToggle("slow", function () {
+    $(".options input").focus(function () {
+      console.log("FOcus ok");
+      $("section.option").css("position", "relative");
+    });
+  });
+  $(".options").css("display", "fixed");
+});
 
-    $(".addItem").click(function(){
-        $(".container-input").css("display","block")
-        $("section.options").slideToggle("slow",function(){
-            $('.options input').focus(function(){
-                console.log("FOcus ok")
-                $("section.option").css("position","relative")
-            })
-        });
-        $(".options").css("display","fixed")
-    })  
-    
-    $(".adicionarTarefa").click(function(){
-        $("section.options").slideToggle("slow");
-       
-    })  
-})  
+$(".adicionarTarefa").click(function () {
+  $("section.options").slideToggle("slow");
+});
+
+function verificar() {
+  $(".button").click(function () {
+    const name = $(".input_name").val();
+    const like = $(".input_like").val();
+    const setName = localStorage.setItem("Nome", name);
+    const setLike = localStorage.setItem("Gosto", like);
+    let verifyName = localStorage.getItem("Nome");
+    let verifyLike = localStorage.getItem("Gosto");
+    if (verifyLike && verifyName) {
+      console.log("verdadeiro");
+      window.location.href = "app.html";
+    } else {
+      console.log("false");
+      console.log(verifyName);
+      return false;
+    }
+  });
+
+  $(".verifyKey").click(function () {
+
+    let verifyName = localStorage.getItem("Nome");
+    let verifyLike = localStorage.getItem("Gosto");
+    if (verifyLike && verifyName) {
+        window.location.href = "app.html";
+        document.getElementById("html").innerHTML = "<b>teste</b>";
+      } else {
+        window.location.href = "form.html"
+      }
+  });
+}
+verificar();
+
+console.log(name)
