@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');* {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+* {
   margin: 0;
   padding: 0;
   outline: 0;
@@ -11,7 +12,8 @@ body {
   height: 100vh;
 }
 
-span{
+
+span {
   display: inline-block;
 }
 
@@ -28,12 +30,12 @@ body section.container {
 }
 
 body section.container section.container-flex {
-    display: flex;
-    width: 100%;
-    padding: 1em 0;
-    color: #fff;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  padding: 1em 0;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
 }
 
 body section.container section.container-flex p {
@@ -43,7 +45,6 @@ body section.container section.container-flex p {
 
 body section.container section.container-flex div.inputs {
   display: flex;
-
 }
 body section.container section.container-flex div.inputs button {
   border: none;
@@ -55,16 +56,16 @@ body section.container section.container-flex div.inputs button {
 body section.container section.container-flex div.inputs button i {
   color: #fff;
   font-size: 5vw;
-}
-
-body section.container section.container-flex div.inputs button.addItem{
- display: flex;
-}
-
-body section.container section.container-flex div.inputs button.addItem i{
   margin: 0 10px;
-
+  background-color: #1c1d1d;
+  padding: 5px;
+  border-radius: 50px;
 }
+
+body section.container section.container-flex div.inputs button.addItem {
+  display: flex;
+}
+
 body section.container section.container-lembrete {
   width: 100%;
   margin: 1em 0em;
@@ -93,20 +94,18 @@ body section.container section.container-itens {
 body section.container section.container-itens ul {
   display: inline-block;
   width: 100%;
-  
-  grid-template-columns: repeat(2,1fr);
+
+  grid-template-columns: repeat(2, 1fr);
   list-style-type: none;
- 
   display: grid;
   grid-gap: 10px;
 }
 
 body section.container section.container-itens ul li.container-each {
-
   display: grid;
   color: #fff;
-
-  padding: 20px 10px;
+  font-size: 14px;
+  padding: 20px;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(20, 19, 20, 1);
   -moz-box-shadow: 0px 0px 10px 0px rgba(20, 19, 20, 1);
   box-shadow: 0px 0px 10px 0px rgba(20, 19, 20, 1);
@@ -117,19 +116,22 @@ body section.container section.container-itens ul li.container-each {
   justify-content: flex-start;
 }
 
-body section.container section.container-itens ul li.container-each label.flex-item {
+body
+  section.container
+  section.container-itens
+  ul
+  li.container-each
+  label.flex-item {
   align-items: center;
-  
   display: flex;
 }
 
-
-body section.container section.container-itens ul li label span{
+body section.container section.container-itens ul li label span {
   font-size: 12px;
   color: #ddd;
 }
 
-div.infos{
+div.infos {
   width: 100%;
   text-align: left;
   align-items: flex-start;
@@ -139,11 +141,11 @@ div.infos{
 }
 
 body section.container section.container-itens ul li i {
-  color: #fff;
+
   padding-right: 10px;
 }
 
-body section.container-input{
+body section.container-input {
   height: 100vh;
   position: absolute;
   display: none;
@@ -152,25 +154,24 @@ body section.container-input{
   width: 100%;
 }
 
-body section.options{
-    position: fixed;
-    z-index: 8;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    bottom: 0;
-    padding: 10px;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: none;
-    height: 15em;
-    background-color: rgb(17, 16, 16);
-    width: 100%;
+body section.options {
+  position: fixed;
+  z-index: 8;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  bottom: 0;
+  padding: 10px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: none;
+  background-color: rgb(17, 16, 16);
+  width: 100%;
 }
 
-body section.options input{
+body section.options input {
   padding: 8px;
   width: 80%;
   margin: 5px 0;
@@ -180,9 +181,13 @@ body section.options input{
   color: #fff;
 }
 
-body section.options input::placeholder{
+body section.options input::placeholder {
   color: #fff;
 }
-.animate{
+.animate {
   transition: width 5s ease-in-out;
+}
+
+input[type="time" i] {
+  color: white !important;
 }
