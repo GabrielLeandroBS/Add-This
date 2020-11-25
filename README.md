@@ -26,7 +26,7 @@ O Add This é um projeto projeto pessoal que tem o objetivo de adquirir conhecim
 
 O layout desenvolvido visou um design minimalista mas ao mesmo tempo impactante.
 
- <img align="center" alt="Add This" title="Add This" width="200px" height="200px" src=".github/app.svg"/>
+ <img alt="Add This" title="Add This" width="100%" height="200px" src=".github/app.svg"/>
 
 
 ## 📝 Licença
