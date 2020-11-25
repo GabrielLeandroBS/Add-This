@@ -20,10 +20,8 @@
       const time = $(".input-time").val();
       const date = $(".input-date").val();
       const setName = localStorage.setItem("Nome", name);
-      const setLike = localStorage.setItem("Gosto", like);
       let verifyName = localStorage.getItem("Nome");
-      let verifyLike = localStorage.getItem("Gosto");
-      if (verifyLike && verifyName) {
+      if (verifyName) {
         console.log("verdadeiro");
         window.location.href = "app.html";
       } else {
@@ -35,8 +33,7 @@
 
     $(".verifyKey").click(function () {
       let verifyName = localStorage.getItem("Nome");
-      let verifyLike = localStorage.getItem("Gosto");
-      if (verifyLike && verifyName) {
+      if (verifyName) {
         window.location.href = "app.html";
         document.getElementById("html").innerHTML = "<b>teste</b>";
       } else {

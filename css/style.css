@@ -31,7 +31,7 @@ body section.container {
 
 body section.container section.container-flex {
   display: flex;
-  width: 100%;
+  width: 80%;
   padding: 1em 0;
   color: #fff;
   align-items: center;
@@ -56,6 +56,7 @@ body section.container section.container-flex div.inputs button {
 body section.container section.container-flex div.inputs button i {
   color: #fff;
   font-size: 5vw;
+  font-size: 14px;
   margin: 0 10px;
   background-color: #1c1d1d;
   padding: 5px;
@@ -93,7 +94,7 @@ body section.container section.container-itens {
 
 body section.container section.container-itens ul {
   display: inline-block;
-  width: 100%;
+  width: 80%;
 
   grid-template-columns: repeat(2, 1fr);
   list-style-type: none;
