@@ -17,16 +17,21 @@
 Esse projeto foi desenvolvido utilizando tecnologias consideradas ultrapassadas, são elas:
 
 - [AngularJs](https://angularjs.org/)
+- [Jquery](https://jquery.com/)
 
 ## 💻 Projeto
 
-O Add This é um projeto projeto pessoal que tem o objetivo de adquirir conhecimento e obter experiência nessa determinada tecnologia 💜
+O Add This é um projeto projeto pessoal que tem o objetivo de adquirir conhecimento e obter experiência nessa determinada tecnologia. 💜
 
 ## 🔖 Layout
 
 O layout desenvolvido visou um design minimalista mas ao mesmo tempo impactante.
 
- <img alt="Happy" title="Happy" src=".github/playstore-icon.png" />
+ <img alt="addthis" title="addthis" src=".github/app.png" />
+ <img alt="addthis" title="addthis" src=".github/initial.png"/>
+ <img alt="addthis" title="addthis" src=".github/login.png"/>
+
+
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
