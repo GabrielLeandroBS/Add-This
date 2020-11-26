@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Add This" title="Add This" width="200px" src=".github/playstore-icon.png" />
+    <img alt="Add This" title="Add This" width="100%" src=".github/playstore-icon.png" />
 </h1>
 
 <p align="center">
