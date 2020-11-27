@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Add This" title="Add This" width="200px" src=".github/playstore-icon.png" />
+    <img alt="Add This" title="Add This" width="200px" height="200px" src=".github/playstore-icon.png" />
 </h1>
 
 <p align="center">
@@ -20,11 +20,11 @@ Esse projeto foi desenvolvido utilizando tecnologias consideradas ultrapassadas,
 
 ## 💻 Projeto
 
-O Add This é um projeto projeto pessoal que tem o objetivo de adquirir conhecimento e obter experiência nessa determinada tecnologia. 💜
+O Add This é um projeto projeto pessoal que tem o objetivo de adquirir conhecimento e obter experiência nessas determinadas tecnologias. 💜
 
 ## 🔖 Layout
 
-O layout desenvolvido visou um design minimalista mas ao mesmo tempo impactante.
+O layout desenvolvido visou um design minimalista, mas ao mesmo tempo impactante.
 
  <img alt="Add This" title="Add This" width="100%" height="200px" src=".github/app.svg"/>
 
