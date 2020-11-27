@@ -28,7 +28,7 @@ O layout desenvolvido visou um design minimalista, mas ao mesmo tempo impactante
 
  
 <h1 align="center">
-   <img alt="Add This" title="Add This" width="500px" height="500px" src=".github/app.png" /> 
+   <img alt="Add This" title="Add This" width="500px" height="300px" src=".github/app.png" /> 
 </h1>
 
 ## 📝 Licença
