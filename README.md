@@ -22,6 +22,9 @@ Esse projeto foi desenvolvido utilizando tecnologias consideradas ultrapassadas,
 
 O Add This é um projeto projeto pessoal que tem o objetivo de adquirir conhecimento e obter experiência nessas determinadas tecnologias. 💜
 
+Se quiser baixar o aplicativo, acesse o link:
+- [Download](https://drive.google.com/file/d/1t2leTM36lIeVrDYzsqgkta0zDbrT4IE9/view?usp=sharing)
+
 ## 🔖 Layout
 
 O layout desenvolvido visou um design minimalista, mas ao mesmo tempo impactante.
