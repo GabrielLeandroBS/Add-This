@@ -1,19 +1,19 @@
-<svg width="1802" height="988" viewBox="0 0 1802 988" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="1802" height="988" rx="30" fill="url(#paint0_radial)"/>
-<rect x="94.5854" y="68" width="492.43" height="845" rx="50" fill="url(#pattern0)"/>
-<rect x="1245.21" y="68" width="466.102" height="845" rx="30" fill="url(#pattern1)"/>
-<rect x="670.874" y="68" width="461.226" height="852" rx="30" fill="url(#pattern2)"/>
+<svg width="1703" height="941" viewBox="0 0 1703 941" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="1703" height="941" rx="20" fill="url(#paint0_radial)"/>
+<rect x="105" y="64" width="431" height="811" rx="20" fill="url(#pattern0)"/>
+<rect x="1169" y="64" width="435.673" height="811.47" rx="20" fill="url(#pattern1)"/>
+<rect x="634" y="64" width="433.783" height="811.47" rx="20" fill="url(#pattern2)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0" transform="translate(0.0173803) scale(0.000777165 0.000452899)"/>
+<use xlink:href="#image0" transform="translate(-0.0292198) scale(0.000852206 0.000452899)"/>
 </pattern>
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image1" transform="translate(0 0.00968916) scale(0.000805153 0.000444122)"/>
+<use xlink:href="#image1" transform="translate(-0.0238465) scale(0.000843553 0.000452899)"/>
 </pattern>
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image2" transform="translate(0 0.0188042) scale(0.000805153 0.000435866)"/>
+<use xlink:href="#image2" transform="translate(-0.026129) scale(0.000847229 0.000452899)"/>
 </pattern>
-<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(37.5417 98.5) rotate(28.5943) scale(1858.53 3524.87)">
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(35.4792 93.8142) rotate(28.7817) scale(1759.57 3351.18)">
 <stop stop-color="#7579FF"/>
 <stop offset="1" stop-color="#B224EF"/>
 <stop offset="1" stop-color="#B224EF"/>
